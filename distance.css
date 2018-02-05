@@ -1,0 +1,114 @@
+body {
+  position: relative;
+  font: 'sk-modernist-mono';
+}
+
+.tickets {
+  /* margin-left: 35px; */
+  margin-top: 50px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ticket {
+  border: 0px solid black;
+  margin: 14px;
+  width: 107px;
+  height: 107px;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  float: left;
+  line-height: 17px;
+}
+
+#menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align:center;
+  color:#C2C2C2;
+  font: sk-modernist-mono;
+  font-size:75px;
+}
+
+.page-link {
+
+}
+
+.page-link .title-main {
+  display: block;
+}
+
+.page-link .title-alt {
+  display: none;
+}
+
+.page-link:hover .title-main{
+  display: none;
+}
+
+.page-link:hover .title-alt{
+  display: block;
+}
+
+/* unvisited link */
+a:link {
+    color: #C2C2C2;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #C2C2C2;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #C2C2C2;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #C2C2C2;
+    text-decoration: none;
+}
+
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
