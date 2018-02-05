@@ -1,4 +1,3 @@
 # interaction2project1
-final website for interaction 2 project 1
 
-blah
+This site is intended to recontextualize concerts into data which simply organizes my past personal experiences. It displays the concerts and festivals I've attended between 2013-present and reorders the information based on 5 categories: Date, Duration, Cost, Distance, and Capacity. The first page the user lands on is the chronological order of the events which will then change with the other corresponding categories they choose from the navigation. The navigation is the accumulation of time and money spent, distance traveled (in kilometers), and people I have encountered until present day. The corresponding pages show the range in how much I've been willing to spend, how many times I've gone abroad, and how many intimate shows or large venues I've been to over the past 4-5 years.
